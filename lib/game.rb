@@ -10,8 +10,9 @@ class Game
   end
 
   def score
-    score = 0
     index = 0
+    score = 0
+    
 
     FRAME.times do
       if strike?(index)
